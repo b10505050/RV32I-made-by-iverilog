@@ -34,10 +34,20 @@ This project implements a simplified version of the RV32I single-cycle CPU based
 Each module in this implementation was tested to ensure its correctness, and the final CPU can handle basic arithmetic instructions, conditional jumps, and memory access operations. The design of the RV32I CPU emphasizes a simple yet efficient instruction execution flow, where each instruction is fetched, decoded, executed, and written back within a single clock cycle.
 ***********************************************************************************************
 If there has any problem, please tell me and don't resent me 
+
+
 cause this is my first time to do this project by myself 
+
+
 And it's just for fun and learning haha
+
+
 so if those code can help u, it will be my honest
+
+
 Hope u enjoy
+
+
 Chun Min ,Chang  from NTU ESOE
 
 
