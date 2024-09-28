@@ -19,7 +19,7 @@ RV32I CPU 的實做介紹
 6. 控制單元（Control Unit）：根據指令的操作碼生成控制信號，協調數據通路中各模組的運作。控制單元決定指令的類型並生成對應的 ALUOp 和其他控制信號。
 
 此實作的每個模組均被測試以確保其功能正確，最終 CPU 能夠處理基本的運算指令、條件跳轉以及記憶體存取等操作。RV32I 的設計重點在於實現簡單且高效的指令執行流程，使其能在單個時鐘週期內完成指令的取指、解碼、執行和寫回。
-----------------------------------------------------------------------------------------------------------------
+**************************************************************************************************************************************
 Implementation of RV32I CPU
 This project implements a simplified version of the RV32I single-cycle CPU based on the RISC-V instruction set architecture (ISA). RV32I stands for a 32-bit base integer instruction set, supporting operations such as addition, subtraction, shifting, logical operations, comparisons, and memory access. The implementation includes several key modules such as the Program Counter (PC), Instruction Memory, Register File, Arithmetic Logic Unit (ALU), Data Memory, and Control Unit.
 
