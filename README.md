@@ -19,3 +19,21 @@ RV32I CPU 的實做介紹
 6. 控制單元（Control Unit）：根據指令的操作碼生成控制信號，協調數據通路中各模組的運作。控制單元決定指令的類型並生成對應的 ALUOp 和其他控制信號。
 
 此實作的每個模組均被測試以確保其功能正確，最終 CPU 能夠處理基本的運算指令、條件跳轉以及記憶體存取等操作。RV32I 的設計重點在於實現簡單且高效的指令執行流程，使其能在單個時鐘週期內完成指令的取指、解碼、執行和寫回。
+----------------------------------------------------------------------------------------------------------------
+Implementation of RV32I CPU
+This project implements a simplified version of the RV32I single-cycle CPU based on the RISC-V instruction set architecture (ISA). RV32I stands for a 32-bit base integer instruction set, supporting operations such as addition, subtraction, shifting, logical operations, comparisons, and memory access. The implementation includes several key modules such as the Program Counter (PC), Instruction Memory, Register File, Arithmetic Logic Unit (ALU), Data Memory, and Control Unit.
+
+1. Program Counter (PC): Keeps track of the current instruction address. After each instruction is executed, the PC is updated to the address of the next instruction.
+2. Instruction Memory (Instr Mem): Stores the instructions. In each cycle, the CPU fetches the corresponding instruction from memory based on the PC.
+3. Register File (RegFile): Contains 32 general-purpose 32-bit registers, supporting two read and one write operation. The x0 register is always zero, as required by RISC-V.
+4. Arithmetic Logic Unit (ALU): Performs various operations including addition, subtraction, shifting, logical operations, and comparisons. The operations are selected based on control signals and the funct3 and funct7 fields from the instruction.
+5. Data Memory (Data Mem): Handles memory access for loading and storing data. This module reads or writes data based on control signals.
+6. Control Unit: Generates control signals based on the opcode of the instruction, coordinating the operation of each module in the data path. The Control Unit determines the type of instruction and generates the appropriate ALUOp and other control signals.
+
+Each module in this implementation was tested to ensure its correctness, and the final CPU can handle basic arithmetic instructions, conditional jumps, and memory access operations. The design of the RV32I CPU emphasizes a simple yet efficient instruction execution flow, where each instruction is fetched, decoded, executed, and written back within a single clock cycle.
+
+
+
+
+
+
