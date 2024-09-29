@@ -56,7 +56,7 @@ so if those code can help u, it will be my honest
 Hope u enjoy
 
 
-Chun Min ,Chang  from NTU ESOE
+Chun Min ,Chang  
 
 
 
