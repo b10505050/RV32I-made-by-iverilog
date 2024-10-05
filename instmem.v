@@ -74,4 +74,3 @@ module Instr_Mem (
 	// 每條指令間隔4bytes +4 > 省略01 ＝ 1 / 00 ＝ 0 / 11 ＝ 3 / 10 ＝ 2 的可能
     end
 endmodule
-
