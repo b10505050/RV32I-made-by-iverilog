@@ -1,0 +1,129 @@
+$date
+	Sat Oct  5 18:13:52 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module register_file_tb $end
+$var wire 32 ! busB [31:0] $end
+$var wire 32 " busA [31:0] $end
+$var reg 5 # Ra [4:0] $end
+$var reg 5 $ Rb [4:0] $end
+$var reg 1 % RegWr $end
+$var reg 5 & Rw [4:0] $end
+$var reg 1 ' WrClk $end
+$var reg 32 ( busW [31:0] $end
+$scope module uut $end
+$var wire 5 ) Ra [4:0] $end
+$var wire 5 * Rb [4:0] $end
+$var wire 1 % RegWr $end
+$var wire 5 + Rw [4:0] $end
+$var wire 1 ' WrClk $end
+$var wire 32 , busW [31:0] $end
+$var wire 32 - reg1 [31:0] $end
+$var wire 32 . reg2 [31:0] $end
+$var wire 32 / busB [31:0] $end
+$var wire 32 0 busA [31:0] $end
+$var integer 32 1 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+0'
+b0 &
+0%
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#50
+1'
+#100
+b1010 -
+0'
+1%
+b1010 (
+b1010 ,
+b1 &
+b1 +
+#150
+1'
+#200
+0'
+0%
+#250
+1'
+#300
+b10100 .
+0'
+1%
+b10100 (
+b10100 ,
+b10 &
+b10 +
+#350
+1'
+#400
+0'
+0%
+#450
+1'
+#500
+b10100 !
+b10100 /
+b1010 "
+b1010 0
+0'
+b10 $
+b10 *
+b1 #
+b1 )
+#550
+1'
+#600
+0'
+#650
+1'
+#700
+0'
+1%
+b11110 (
+b11110 ,
+b11 &
+b11 +
+#750
+1'
+#800
+0'
+0%
+#850
+1'
+#900
+b1010 !
+b1010 /
+b11110 "
+b11110 0
+0'
+b1 $
+b1 *
+b11 #
+b11 )
+#950
+1'
+#1000
+0'
