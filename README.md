@@ -42,8 +42,8 @@ This project implements a simplified version of the RV32I single-cycle CPU based
 Each module in this implementation was tested to ensure its correctness, and the final CPU can handle basic arithmetic instructions, conditional jumps, and memory access operations. The design of the RV32I CPU emphasizes a simple yet efficient instruction execution flow, where each instruction is fetched, decoded, executed, and written back within a single clock cycle.
 ***********************************************************************************************
 
-![image](https://github.com/b10505050/RV32I-made-by-iverilog/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-09-29%20225300.png)
-![image](https://github.com/b10505050/RV32I-made-by-iverilog/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-09-29%20225421.png)
+![image](https://github.com/b10505050/RV32I-made-by-iverilog/blob/main/%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C1.png)
+![image](https://github.com/b10505050/RV32I-made-by-iverilog/blob/main/%E6%B8%AC%E8%A9%A6%E7%B5%90%E6%9E%9C2.png)
 
 
 
